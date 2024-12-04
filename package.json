@@ -1,0 +1,29 @@
+{
+  "name": "@pangeacyber/langchain-js-rag-authz",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT0",
+  "scripts": {
+    "demo": "tsx index.ts",
+    "format": "biome format",
+    "lint": "biome lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "1.24.4",
+    "@langchain/core": "0.3.18",
+    "@langchain/openai": "0.3.14",
+    "citty": "0.1.6",
+    "consola": "3.2.3",
+    "langchain": "0.3.6",
+    "pangea-node-sdk": "4.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@tsconfig/node22": "22.0.0",
+    "tsx": "4.19.2",
+    "typescript": "5.6.3",
+    "ultracite": "4.1.7"
+  }
+}
